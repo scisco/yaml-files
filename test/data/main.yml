@@ -1,0 +1,4 @@
+key1: value1
+key2: !!files ['data/file1.yml']
+key3: !!files ['data/file1.yml', 'data/file2.yml']
+key4: !!files ['data/file2.yml', 'data/file1.yml']
