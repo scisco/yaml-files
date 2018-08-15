@@ -1,6 +1,6 @@
 {
   "name": "yaml-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Include multiple yaml files in another yaml file for js-yaml.",
   "main": "index.js",
   "scripts": {
