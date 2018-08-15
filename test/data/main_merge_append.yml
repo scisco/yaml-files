@@ -1,0 +1,4 @@
+key1: value1
+key2: !!files_merge_append ['data/file1.yml']
+key3: !!files_merge_append ['data/file1.yml', 'data/file2.yml']
+key4: !!files_merge_append ['data/file2.yml', 'data/file1.yml']

@@ -1,2 +1,5 @@
 test: good test
 result: good result
+array:
+  - key1
+  - key2
