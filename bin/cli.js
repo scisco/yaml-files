@@ -35,34 +35,29 @@ const cliOptions = createCliOptions([
 const argv = minimist(process.argv.slice(2), cliOptions.options());
 
 if (argv.help) {
-  console.log('Usage: yaml-merge <command> <input_filename> <output_filename> [options] \n\
-  command:              merge | append \n\
+  console.log('Usage: yaml-merge <input_filename> <output_filename> [options] \n\
   input_filename:       path to yml file being parsed \n\
   output_filename:      path to save the yml file');
   cliOptions.print();
   process.exit(0);
 }
 
-if (argv._[0] !== 'merge' && argv._[0] !== 'append') {
-  console.error(
-    '[error] argument is missing you must use either merge or append commands'
-  );
-  process.exit(1);
-}
+const input = argv._[0];
+const output = argv._[1];
 
-if (!argv._[1]) {
+if (!input) {
   console.error(
     '[error] input yaml filename is missing'
   );
   process.exit(1);
 }
 
-if (!argv._[2]) {
+if (!output) {
   console.error(
     '[error] output yaml filename is missing'
   );
   process.exit(1);
 }
 
-const p = merge(argv._[1], argv._[2]);
+const p = merge(input, output);
 console.log(`new yaml file stored at ${p}`);

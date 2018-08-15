@@ -1,0 +1,23 @@
+key1: value1
+key2:
+  test: good test
+  result: good result
+  array:
+    - key1
+    - key2
+key3:
+  test: good test
+  result: bad result
+  array:
+    - key1
+    - key2
+    - key3
+  test2: good test
+key4:
+  test2: good test
+  result: good result
+  array:
+    - key3
+    - key1
+    - key2
+  test: good test

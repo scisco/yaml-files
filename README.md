@@ -15,8 +15,7 @@ Adds a custom tag for a [YAML](http://yaml.org/) document that facilitate inclus
 ```bash
 $ npm install -g yaml-files
 $ yaml-merge -h
-Usage: yaml-merge <command> <input_filename> <output_filename> [options]
-  command:              merge | append
+Usage: yaml-merge <input_filename> <output_filename> [options]
   input_filename:       path to yml file being parsed
   output_filename:      path to save the yml file
     --help, -h            show help
