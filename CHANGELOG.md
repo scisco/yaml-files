@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 [Unreleased]: https://github.com/scisco/yaml-files/compare/v0.2.0...HEAD
 
-## [v1.0.1] - 2018-08-15
+## [v1.1.0] - 2018-08-15
+## Changed
+- CLI name changed to `yaml-files` from `yaml-merge`
 
+## [v1.0.1] - 2018-08-15
 ### Changed
 - remove merge|append commands from the CLI because it is redundant
 
@@ -26,7 +29,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - The first release
 
-[Unreleased]: https://github.com/scisco/yaml-files/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/scisco/yaml-files/compare/v1.1.0...HEAD
+[v1.1.0]: https://github.com/scisco/yaml-files/compare/v1.0.1...v1.1.0
 [v1.0.1]: https://github.com/scisco/yaml-files/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/scisco/yaml-files/compare/v0.1.0...v1.0.0
 [v0.1.0]: https://github.com/scisco/yaml-files/compare/9b05d0...v0.1.0
