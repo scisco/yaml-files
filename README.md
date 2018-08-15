@@ -1,7 +1,7 @@
 # yaml-include
 
 [![CircleCI](https://circleci.com/gh/scisco/yaml-files.svg?style=svg)](https://circleci.com/gh/scisco/yaml-files)
-[![npm version](https://badge.fury.io/js/yaml-files.svg)](https://badge.fury.io/js/yaml-files)
+[![npm version](https://badge.fury.io/js/yaml%2dfiles.svg)](https://badge.fury.io/js/yaml%2dfiles)
 
 
 Adds a custom tag for a [YAML](http://yaml.org/) document that facilitate inclusion and merging of external `.yaml` files.
